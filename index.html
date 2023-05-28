@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/clipboard.svg" />
+    <link rel="stylesheet" href="src/style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Le Liste</title>
+  </head>
+  <body class="bg-red-400">
+      <div class="bg-white rounded-t-3xl mx-4 mt-4 h-screen">
+          <div class="py-7 text-5xl text-slate-800 font-extrabold flex justify-center">The To-Do App</div>
+          <script type="module" src="/src/main.ts"></script>
+          <div class="flex justify-center">
+                <input class="border border-slate-400 rounded-md p-1" type="text" id="task-input" placeholder="Enter a task">
+                <button id="add-task-button" class="ml-4 px-2 bg-slate-100 rounded-md border border-slate-400"> Add Task</button>
+          </div>
+          <div id="list" class="break-all pt-4 min-w-sm absolute left-1/2 -translate-x-1/3">
+          </div>
+      </div>
+  </body>
+</html>

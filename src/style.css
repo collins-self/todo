@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "NY Irvin";
+  src: url("../public/ny-fonts/NY Irvin.ttf");
+}
+
+.center {
+  margin: 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-left: 45%;
+    flex-direction: column;
+}
+
+.min-w-sm {
+    min-width: 50%;
+}
